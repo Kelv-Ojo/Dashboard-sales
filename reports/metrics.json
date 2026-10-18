@@ -1,0 +1,10 @@
+{
+  "rows": 10018,
+  "orders": 5026,
+  "start": "2021-01-03",
+  "end": "2024-12-30",
+  "sales_sum": 2298896.6163,
+  "profit_sum": 286599.4911,
+  "mean_sales_per_line": 229.4766037432621,
+  "source_sha256": "ee27df1d681890cc176b1ca7823ee3ef2df95d4ec77b0ee3869f4b665302967d"
+}
