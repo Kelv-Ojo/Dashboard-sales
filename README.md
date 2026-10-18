@@ -1,29 +1,63 @@
-# Dashboard-sales
+# Sales Overview Dashboard
 
-This project is a Sales Overview Dashboard created in Power BI, designed to provide insights into key sales metrics across multiple years. It enables users to analyze sales trends by comparing Current Year (CY) and Previous Year (PY) data, offering valuable year-over-year (YoY) comparisons to drive business decisions.
+An interactive Power BI portfolio project for exploring sales performance across years and regions, including current-year and previous-year comparisons.
 
-Features
-Year-over-Year Metrics: Compares metrics between the current and previous years to help identify growth, declines, and patterns in sales performance.
-Dynamic Slicing: Allows users to select specific years (e.g., 2021) and automatically handles cases where data for the previous year is unavailable, displaying a "No Data" message for PY when necessary.
-Region-Based Analysis: Aggregates sales data by region, providing an average value for each region, which helps to understand regional performance.
-Getting Started
-To view or modify this dashboard, you will need:
+## Dashboard preview
 
-Power BI Desktop (or a compatible Power BI viewer)
-The salesoverview.pbix file (available in this repository)
-Opening the File
-Download and install Power BI Desktop if you haven't already.
-Clone or download this repository.
-Open Power BI Desktop and load the salesoverview.pbix file.
-Usage
-Open the dashboard in Power BI.
-Use the slicers to select different years and regions to explore sales performance.
-View the Current Year (CY) & Previous Year (PY) Metrics to analyze trends and understand changes over time.
-Notes
-The Current Year (CY) & Previous Year (PY) Metrics section averages all the sales values for the selected region.
-Selecting a year without data in the previous year will display a "No Data" message for PY.
-Contributing
-Contributions are welcome! If you have suggestions or improvements, feel free to fork this repository, make your changes, and submit a pull request.
+![Sales dashboard preview 1](Slide1.jpg)
 
-License
-This project is licensed under the MIT License.
+<details>
+<summary>More dashboard views</summary>
+
+![Sales dashboard preview 2](Slide2.jpg)
+
+![Sales dashboard preview 3](Slide3.jpg)
+
+</details>
+
+## What the report explores
+
+- **Year comparisons:** Compare current-year (CY) and previous-year (PY) metrics.
+- **Interactive selections:** Explore performance using year and region slicers.
+- **Regional performance:** Compare average sales values for the selected region.
+- **Missing prior-year data:** The documented report behavior displays “No Data” when no previous-year data is available.
+
+The original project notes describe the CY and PY regional metrics as averages of sales values. Interpret these as averages rather than total revenue unless the measure definition in the report says otherwise.
+
+## Open the project
+
+1. Download this repository using **Code → Download ZIP**, then extract it.
+2. Open [salesoverview.pbix](salesoverview.pbix) in Power BI Desktop.
+3. Use the year and region slicers to explore the report.
+4. To refresh the data, keep [Sales Overview Data.xlsx](Sales%20Overview%20Data.xlsx) locally available. If Power BI reports a missing source, update the workbook path in its data source settings.
+
+You can browse the images above without installing Power BI.
+
+## Repository contents
+
+| File | Purpose |
+| --- | --- |
+| [salesoverview.pbix](salesoverview.pbix) | Interactive Power BI report |
+| [Sales Overview Data.xlsx](Sales%20Overview%20Data.xlsx) | Included sales workbook |
+| Slide1.jpg, Slide2.jpg, Slide3.jpg | Report preview images |
+
+## Tools and skills
+
+Power BI · Excel · Data visualization · Year-over-year analysis · Interactive filtering
+
+## Reproducibility notes
+
+The repository includes the report and workbook. Dataset provenance, refresh requirements, cleaning steps, and DAX measure definitions should be documented before treating the analysis as fully reproducible.
+
+## Contributing
+
+For a bug report, include the selected year and region, the affected visual, and expected versus observed behavior. For report changes, explain the measure or visual affected and include a screenshot.
+
+## License status
+
+The previous README stated MIT licensing, but this repository does not currently include a LICENSE file. A standalone license and clarification of the workbook's usage rights would make reuse terms explicit.
+
+## Related work
+
+- [Heart Disease Data Analysis](https://github.com/Kelv-Ojo/Heart-disease)
+- [E-Commerce Chatbot](https://github.com/Kelv-Ojo/Chat_bot)
