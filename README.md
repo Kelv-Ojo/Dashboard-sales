@@ -1,6 +1,6 @@
 # Sales Overview | Power BI and Reproducible Analysis
 
-**Start here:** [Original PBIX](salesoverview.pbix) → [Python annual totals](reports/annual_sales.csv) → [metric definitions](#metric-definitions)
+**Start here:** [Download reviewed Power BI report](salesoverview-reviewed-20261030.pbix) · [Review notes](docs/LOCAL-REVIEW-20261030.md)
 
 [Verified findings](#verified-workbook-findings) · [Metric definitions](#metric-definitions) · [Reproduce](#reproduce) · [Original Power BI artefact](#original-power-bi-artifact) · [Data limits](#data-source-and-limits)
 
@@ -81,7 +81,7 @@ The original dataset publisher, currency and data licence have not been verified
 
 ## Portfolio review notes
 
-The Python chart and numbers reconcile to the supplied workbook; they do not validate every PBIX measure. The Slide images are blank layout assets, so do not call them populated dashboard screenshots. A genuine Desktop screenshot with filter context is now included above. The repaired local copy is checked in the documented 2021/2024 states; establish currency/upstream rights and complete the remaining filter audit before release. Avoid presenting total Sales, mean line value and average order value under the same label.
+The Python chart and numbers reconcile to the supplied workbook; they do not validate every PBIX measure. The Slide images are blank layout assets, so do not call them populated dashboard screenshots. A genuine Desktop screenshot with filter context is now included above. The published reviewed copy is checked in the documented 2021/2024 states; establish currency/upstream rights and complete the remaining filter audit before claiming complete validation. Avoid presenting total Sales, mean line value and average order value under the same label.
 
 ## Business context and skills
 
@@ -91,4 +91,4 @@ A reporting team needs consistent definitions of sales, orders and order lines b
 
 ## Release status
 
-**Hold the complete dashboard release** until the remaining source-data rights/privacy questions and exhaustive review items in the [Desktop verification](docs/POWER-BI-VERIFICATION.md) are resolved. The independently checked workbook metrics remain valid within their documented scope.
+The reviewed report and screenshots are published. Remaining source-data provenance, currency and review items are documented in the [Desktop verification](docs/POWER-BI-VERIFICATION.md); publication does not certify these unresolved items. The independently checked workbook metrics remain valid within their documented scope.
